@@ -40,8 +40,8 @@ public class FORLOOPgauntlet {
 
 //3. Display the numbers 1 through 100 in a 10x10 square grid.
 //4. Display the following output:
-//          *
-		/// * *
+//         *
+		// * *
 		// * * *
 		// * * * *
 		// * * * * *
@@ -54,18 +54,62 @@ public class FORLOOPgauntlet {
 		//for (int i = 0; i < 101; i++) {
 			//System.out.println(i);
 		//}
-		for (int i = 2; i < 100; i++) {
-			System.out.println(i);
+		//for (int i = 2; i < 100; i++) {
+			//System.out.println(i);
+		//}
+		//for (int i = 1; i < 99; i++) {
+			//if(i%2==1) {
+				//System.out.println(i);
+			//}
+			//for (int i = 0; i < 500; i++) {
+				//if (i%2==1) {
+					//System.out.println(i+" is odd");
+				//}
+				//if (i%2==0) {
+					//System.out.println(i+" is even");
+				//}
+			//}
+		//for (int i = 0; i < 777; i++) {
+			//if (i%7==0) {
+				//System.out.println(i);
+			//}
+		//}
+	//for (int i = 0; i < 12; i++) {
+		//System.out.println("In "+(2008+i)+" i was "+i+" years old");
+	//}
+	for (int i = 0; i < 3; i++) {
+		for (int j = 0; j < 3; j++) {
+		System.out.println(i+" "+j);
 		}
-		for (int i = 1; i < 99; i++) {
-			if(i%2==1) {
-				System.out.println(i);
-			}
+	}
+	for (int i = 1; i < 8; i+=3) {
+		for (int j = 0; j < 3; j++) {
+			System.out.print(i+j+" ");
 		}
+		System.out.println();
+	}
+	for (int i = 1; i < 100; i+=10) {
+		for (int j = 0; j < 10; j++) {
+			System.out.print(i+j+" ");
+	}
+		System.out.println();
+	}
+	for (int i = 1; i < 7; i++) {
+		for (int j = 0; j < i; j++) {
+	System.out.print("*"+" ");
+		}
+		System.out.println();
+	}
+	
+	
+	
+	
+	
+	}
 		
 		
 		
 		
 		
 	}
-}
+
