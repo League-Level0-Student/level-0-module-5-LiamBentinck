@@ -14,10 +14,14 @@ public class ReturnTypesAdvanced {
 		String shp = JOptionPane.showInputDialog("How sides do you want your shape to be?");
 		int nwshp = Integer.parseInt(shp);
 		//2. Call canMakeShape() and save what is returned into a variable
-		
+		 
 		//3. If the shape CAN be drawn
 		if (canMakeShape(nwshp)==true) {
 		int number = calculateTurnAngle(nwshp);
+		drawPolygon(nwshp, number);
+		}
+		else {
+			System.out.println(notEnoughSides());
 		}
 			//4. Call and save what is returned from calculateTurnAngle()
 		
